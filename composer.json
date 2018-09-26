@@ -1,0 +1,25 @@
+{
+    "name": "junely/composer",
+    "description": "a simple test",
+    "type": "liubo",
+    "license": "junely",
+    "authors": [
+        {
+            "name": "Junely",
+            "email": "ne_july@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-di/php-di": "dev-master",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^1.8@dev",
+        "middlewares/fast-route": "dev-master",
+        "middlewares/request-handler": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
